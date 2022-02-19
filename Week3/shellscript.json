@@ -1,0 +1,54 @@
+{ 
+	"add a shebang": {
+
+	   "prefix": "sh", 
+			 
+	   "body": [ 
+			 
+	   "#!/bin/bash",
+			 
+	   ], 
+			 
+	   "description": "Add shebang to script" ,
+   } 
+   
+
+   
+	   "Add Case Statement": {
+
+	   "prefix": "case",
+	   "body": [
+		   "case $vars in"
+		   export BLACK="\[\e[00;30m\]"
+		   "#code if match",
+		   ";;"
+		   export RED="\[\e[00;31m\]"
+		   "#code if match",
+		   ";;"
+		   export GREEN="\[\e[00;32m\]"
+		   "#code if match",
+		   ";;"
+		   export BROWN="\[\e[00;33m\]"
+		   "#code if match",
+		   ";;"
+		   export BLUE="\[\e[00;34m\]"
+		   "#code if match",
+		   ";;"
+		   export PURPLE="\[\e[00;35m\]"
+		   "#code if match",
+		   ";;"
+		   export CYAN="\[\e[00;36m\]"
+		   "#code if match",
+		   ";;"
+		   export GRAY="\[\e[01;30m\]"
+		   "#code if match",
+		   ";;"
+		   "*)#default case"
+		   "#code if default case"
+		   ";;{
+		   "esac"
+			   
+	   ]
+	   "description": "Adds Case Statement Structure"
+   
+}	}
